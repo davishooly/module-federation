@@ -1,0 +1,14 @@
+<style>
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+</style>
+
+<div class="flex">
+  <a [routerLink]="['/']"> Home </a>
+  <a [routerLink]="['/remote-app']"> Remote App </a>
+</div>
+
+<router-outlet></router-outlet>
